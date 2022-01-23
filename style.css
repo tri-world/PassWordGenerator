@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#passContainer{
+height: 500px;
+width: 600px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 3%;
+
+}
+
+.boxes{
+    height: 40px;
+    border-radius: 4px;
+    margin: 2px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+#passbtn
+{
+    color: white;
+    opacity: 1;
+    padding-top: 10px;
+    background-color: indigo;
+    border: 1px solid white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    
+}
+#insidepass{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5%;
+
+}
+.range{
+color: white;
+opacity: 1;
+background-color: indigo;
+border-color: white;
+}
+.toggle {
+position : relative ;
+display : inline-block;
+width : 50px;
+height : 20px;
+background-color: red;
+border-radius: 30px;
+border: 2px solid gray;
+}
+    
+/* After slide changes */
+.toggle:after {
+content: '';
+position: absolute;
+width : 20px;
+height : 20px;
+border-radius:50%;
+background-color: gray;
+transition:  all 0.5s;
+}
+    
+/* Toggle text */
+
+    
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+left : 30px; 
+}
+    
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+background-color: yellow;
+}
+    
+/* Checkbox vanished */
+.checkbox { 
+display : none;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.btn-grad {
+
+text-align: center;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+}
+
+.btn-grad:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+.toggle2 {
+position : relative ;
+display : inline-block;
+width : 50px;
+height : 20px;
+background-color: red;
+border-radius: 30px;
+border: 2px solid gray;
+}
+/* for 2nd toggle button*/      
+/* After slide changes */
+.toggle2:after {
+content: '';
+position: absolute;
+width : 20px;
+height : 20px;
+border-radius:50%;
+background-color: gray;
+transition:  all 0.5s;
+}
+    
+/* Toggle text */
+
+    
+/* Checkbox checked effect */
+.checkbox2:checked + .toggle2::after {
+left : 30px; 
+}
+    
+/* Checkbox checked toggle label bg color */
+.checkbox2:checked + .toggle2 {
+background-color: yellow;
+}
+    
+/* Checkbox vanished */
+.checkbox2 { 
+display : none;
+}
+/*third toggle button*/
+.toggle3 {
+position : relative ;
+display : inline-block;
+width : 50px;
+height : 20px;
+background-color: red;
+border-radius: 30px;
+border: 2px solid gray;
+}
+    
+/* After slide changes */
+.toggle3:after {
+content: '';
+position: absolute;
+width : 20px;
+height : 20px;
+border-radius:50%;
+background-color: gray;
+transition:  all 0.5s;
+}
+    
+/* Toggle text */
+
+    
+/* Checkbox checked effect */
+.checkbox3:checked + .toggle3::after {
+left : 30px; 
+}
+    
+/* Checkbox checked toggle label bg color */
+.checkbox3:checked + .toggle3 {
+background-color: yellow;
+}
+    
+/* Checkbox vanished */
+.checkbox3 { 
+display : none;
+}
+
+/*forth toggle button*/
+
+.toggle4 {
+position : relative ;
+display : inline-block;
+width : 50px;
+height : 20px;
+background-color: red;
+border-radius: 30px;
+border: 2px solid gray;
+}
+    
+/* After slide changes */
+.toggle4:after {
+content: '';
+position: absolute;
+width : 20px;
+height : 20px;
+border-radius:50%;
+background-color: gray;
+transition:  all 0.5s;
+}
+    
+/* Toggle text */
+
+    
+/* Checkbox checked effect */
+.checkbox4:checked + .toggle4::after {
+left : 30px; 
+}
+    
+/* Checkbox checked toggle label bg color */
+.checkbox4:checked + .toggle4 {
+background-color: yellow;
+}
+    
+/* Checkbox vanished */
+.checkbox4 { 
+display : none;
+}
+

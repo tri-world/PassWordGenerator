@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="padding-top: 20px;" id="container">
+        <div style="background-color: skyblue;" id="passContainer">
+            <div id="insidepass">
+                <div style="border: none; font-size: 20px ;color: white; text-transform: uppercase;" class="boxes">
+                    Password Generator
+                </div>
+                <div class="boxes">
+                    <p id="passbtn" class="btn-grad">Your new password will appear here</p>
+                </div>
+                <p id="currentLength" style="color: white;
+                                display: block;
+                                font-size: 10px;
+                                width: 52%;
+                                padding-top: 5px;
+                            ">Defalut-length-16</p>
+                <div class="boxes range" style="background-color: #516395;">
+                    <label for="rangelength" style="color: white; padding-top: 10px; padding-left: 5px;">0</label>
+                    <input type="range" style="width: 100%;" id="rangelength" min="0" ; max="32">
+                    <label for="rangelength" style="color: white; padding-top: 10px; padding-right: 5px;">32</label>
+                </div>
+                <p style="color: white;
+                                display: block;
+                                width: 52%;
+                                margin-bottom: 3px;
+                                padding-bottom: 3px;
+                                padding-top: 5px;
+                                text-transform: uppercase;
+                                font-size: 10px;"><u>settings</u></p>
+                <div class="boxes"
+                    style="display: flex; background-color:#516395; flex-direction: row; margin: 3px; justify-content: space-between;">
+                    <div style="color: white; padding-top: 13px; padding-left: 3px;">include uppercase</div>
+                    <div style="padding-right: 5px;padding-top: 12px;">
+                        <input type="checkbox" id="switch" class="checkbox" />
+                        <label for="switch" class="toggle">
+
+
+
+                        </label>
+                    </div>
+
+                </div>
+                <div class="boxes "
+                    style="display: flex; background-color:#516395; flex-direction: row; margin: 3px; justify-content: space-between;">
+                    <div style="color: white; padding-top: 13px; padding-left: 3px;">include lowerCase</div>
+                    <div style="padding-right: 5px;padding-top: 12px;">
+                        <input type="checkbox"  id="switch2" class="checkbox2" />
+                        <label for="switch2" class="toggle2">
+
+
+
+                        </label>
+                    </div>
+                </div>
+                <div class="boxes"
+                    style="display: flex;background-color:#516395; flex-direction: row; margin: 3px; justify-content: space-between;">
+                    <div style="color: white; padding-top: 13px; padding-left: 3px;">include Number</div>
+                    <div style="padding-right: 5px;padding-top: 12px;">
+                        <input type="checkbox"  id="switch3" class="checkbox3" />
+                        <label for="switch3" class="toggle3">
+
+
+
+                        </label>
+                    </div>
+                </div>
+                <div class="boxes"
+                    style="display: flex;background-color:#516395; flex-direction: row; justify-content: space-between; margin: 3px;">
+                    <div style="color: white; padding-top: 13px; padding-left: 3px;">include Symbol</div>
+                    <div style="padding-right: 5px;padding-top: 12px;">
+                        <input type="checkbox"  id="switch4" class="checkbox4" />
+                        <label for="switch4" class="toggle4">
+                        </label>
+                    </div>
+                </div>
+                <div class="boxes" style="margin-top: 15px;">
+                    <button class="btn-grad" onclick="generateFinalPassword()" id="passbtn"> generate password</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
